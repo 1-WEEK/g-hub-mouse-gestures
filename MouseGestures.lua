@@ -130,8 +130,8 @@ end
 -- Gesture Functions
 function performMissionControlGesture()
 	if debuggingEnabeld then OutputLogMessage("performMissionControlGesture\n") end
-	firstKey = "lctrl"
-	secondKey = "up"
+	firstKey = "lalt"
+	secondKey = "w"
 	pressTwoKeys(firstKey, secondKey)
 end
 
@@ -144,15 +144,15 @@ end
 
 function performSwipeLeftGesture()
 	if debuggingEnabeld then OutputLogMessage("performSwipeLeftGesture\n") end
-	firstKey = "lctrl"
-	secondKey = "right"
+	firstKey = "lalt"
+	secondKey = "o"
 	pressTwoKeys(firstKey, secondKey)
 end
 
 function performSwipeRightGesture()
 	if debuggingEnabeld then OutputLogMessage("performSwipeRightGesture\n") end
-	firstKey = "lctrl"
-	secondKey = "left"
+	firstKey = "lalt"
+	secondKey = "i"
 	pressTwoKeys(firstKey, secondKey)
 end
 
